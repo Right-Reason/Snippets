@@ -1,0 +1,5 @@
+def reverse(string)
+a = ""
+string.scan(/./) { |x| a.prepend(x) }
+return a
+end
